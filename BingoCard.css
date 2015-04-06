@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+@font-face {
+	font-family: junegull;
+	src: url('junegull.ttf');
+}
+
+#BingoCardContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#BingoCard {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	background-color: red;
+	border-radius: 5.172413793103448%;
+}
+
+.BingoCardElement {
+	position: absolute;
+}
+
+#BingoCardTitle {
+	width: 100%;
+	height: 16.979166666666667%;
+	top: 0%;
+	left: 0%;
+}
+
+.BingoCardText {
+	font-family: junegull;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100%;
+}
+
+.BingoCardTitleLetter {
+	color: white;
+	width: 20%;
+	height: 100%;
+	top: 0%;
+}
+
+#BingoCardTitleB {left: 0%;}
+#BingoCardTitleI {left: 20%;}
+#BingoCardTitleN {left: 40%;}
+#BingoCardTitleG {left: 60%;}
+#BingoCardTitleO {left: 80%;}
+
+#BingoCardFace {
+	position: absolute;
+	width: 94.71264367816093%;
+	height: 80.625%;
+	top: 16.979166666666667%;
+	left: 2.6436781609195402%;
+	background-color: white;
+	border-radius: 2.7912621359223302%;
+}
+
+.BingoCardSpot {width: 20%;height: 20%;border-radius: 50%;}
+
+.BingoCardSpotRow1 {top: 0%;}
+.BingoCardSpotRow2 {top: 20%;}
+.BingoCardSpotRow3 {top: 40%;}
+.BingoCardSpotRow4 {top: 60%;}
+.BingoCardSpotRow5 {top: 80%;}
+
+.BingoCardSpotColumnB {left: 0%;}
+.BingoCardSpotColumnI {left: 20%;}
+.BingoCardSpotColumnN {left: 40%;}
+.BingoCardSpotColumnG {left: 60%;}
+.BingoCardSpotColumnO {left: 80%;}
+
+.BingoCardSpacerVertical {
+	width: 0.7281553398058253%;
+	height: 96.60194174757282%;
+	top: 1.699029126213592%;
+	background-color: black;
+}
+
+#BingoCardSpacerVertical1 {left: 19.41747572815534%;}
+#BingoCardSpacerVertical2 {left: 39.563106796116504%;}
+#BingoCardSpacerVertical3 {left: 59.70873786407767%;}
+#BingoCardSpacerVertical4 {left: 79.85436893203883%;}
+
+.BingoCardSpacerHorizontal {
+	width: 96.38242894056848%;
+	height: 0.7751937984496124%;
+	left: 1.808785529715762%;
+	background-color: black;
+}
+
+#BingoCardSpacerHorizontal1 {top: 19.37984496124031%;}
+#BingoCardSpacerHorizontal2 {top: 39.534883720930236%;}
+#BingoCardSpacerHorizontal3 {top: 59.68992248062016%;}
+#BingoCardSpacerHorizontal4 {top: 79.84496124031009%;}
